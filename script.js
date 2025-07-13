@@ -437,7 +437,7 @@ tipBtn.style.transform="translate(-6vw,0vh)"
     content.style.marginBottom = "70px"
     switch (cpg) {
         case 0:
-            atomImg.src = "atom1c.png";
+            atomImg.src = "images/atom1c.png";
             title.innerHTML = "Parts of an atom"
            nav(navAtom);
           
@@ -445,7 +445,7 @@ tipBtn.style.transform="translate(-6vw,0vh)"
 
             break;
         case 1:
-        atomImg.src = "atom1c.png";
+        atomImg.src = "images/atom1c.png";
             // learn.style.display='none';
             // time.style.display='none';
 
@@ -467,7 +467,7 @@ title.innerHTML = "Parts of an atom 2"
       
 
 
-            atomImg.src = "c2.png"
+            atomImg.src = "images/c2.png"
            
             title.innerHTML = "Elements"
             content.innerHTML = " <p>There are many different types of elements.</p><p>An element is just a lot of the <b>same </b>atoms grouped together. Elements are bigger and have mass, like a block of gold which is made up of many tiny gold atoms. </p><p>Every element also has an element symbol on the periodic table.</p> e.g oxygen has a symbol of O. The symbol should always have a capital first letter.<p><i>See the image for where to find the mass, atomic number and symbol of an element on the periodic table</i></p><p>Each element is either a metal, or a nonmetal, and each column (vertical) is categorized into a group. <br> Metals: Alkali metal, alkaline earth, transition metal, basic metal, metalloid. Nonmetals: nonmetal, Halogen, Noble Gas, Lanthanide, Actinide.<br> See the legend for the periodic table for more information."
@@ -475,7 +475,7 @@ title.innerHTML = "Parts of an atom 2"
 
             break;
         case 3:
-        atomImg.src = "c2.png"
+        atomImg.src = "images/c2.png"
         title.innerHTML = "Elements 2"
             content.innerHTML = " <h3>Finding the mass, atomic# and #of parts in an atom</h3><p>All atoms in an elements have a different #of protons, neutrons and electrons</p><p><b>#of protons</b> of an element is the atomic number and the identity of the atom, since every element has a diffrent atomic#.</p> <b>#of electrons in an atom</b>=#of protons in an atom</p> <p><p><b>The atomic mass (atomic weight)</b> of an atom is the #of neutrons + the #of protons since the electrons are so light they don't count towards the total mass of an atom. <p><b>The #of neutrons</b> in an atom is the atomic mass - #of protons</p> <p>Example:if an atom has 11 protons and 12 neutrons, the atomic mass will be 11+12=23.</p><p>press the periodic table button above and try reading the elements</p>"
             break;
@@ -484,7 +484,7 @@ title.innerHTML = "Parts of an atom 2"
 
             title.innerHTML = "Diagrams of atoms"
             
-            atomImg.src = "bhor.png"
+            atomImg.src = "images/bhor.png"
             nav(navDiagrams);
             
 
@@ -493,7 +493,7 @@ title.innerHTML = "Parts of an atom 2"
             break;
         case 5:
         title.innerHTML = "Diagrams of atoms 2"
-            atomImg.src = "lewis.png"
+            atomImg.src = "images/lewis.png"
             // dont hide flurine lewis img
             content.innerHTML = "<p>The second diagram is the <b>Lewis dot diagram</b>. </p><p>It is just the Bohr diagram except only the valence electrons, electrons in the outermost shell, are drawn. The element symbol is written in the center. <p> In the periodic table the element's <b>column number is the #of valence electrons they have</b>. For columns after 9, you start counting from 0 again. e.g column 15 has 5 valence electrons.</p><p style='text-align:center'> Lithium has is in column 1 and has 1 valence electrons. <img src='colRule.png' style='width:75px;height:150px;'> The Lewis diagram for lithium is <br> <b>Li⋅</b> <p style='text-align:center'>Boron is in column 13 and has has 3 valence electrons. The diagram for Boron is <br><b>B˙:</b></p> <p><u>In order for an atom to be stable it must have a full outer shell.</u></p><p>For example Fluorine has electrons that goes up to the second shell, which needs 8 electrons to be stable, however in the Lewis diagram it shows that Fluorine only has 7 valence electrons, so it is not stable. Therefore it has to gain 1 electron to be stable</p><p>If an element has less than 4 valence electrons it will be faster to lose instead of gain electrons, so it will lose electrons. It's like rounding. <br>Example: Lithium's lewis diagram has 1 electron, Li⋅ so it will lose 1 electrons to gain stabililty.<img style='width:200px;height:100px' src=lith.png></p>"
 
